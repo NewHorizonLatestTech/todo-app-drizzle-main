@@ -1,0 +1,13 @@
+drizle install usman
+
+npm install drizzle-orm
+
+npm install drizzle-kit
+
+npm install pg
+
+npm install @vercel/postgres
+
+npm i next-update
+
+npx next --version
