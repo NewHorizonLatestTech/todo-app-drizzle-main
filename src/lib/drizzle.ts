@@ -18,7 +18,7 @@ export const todoTable = pgTable("todo", {
   status: boolean("status").default(true).notNull(),
 });
 
-export type Todo = InferModel<typeof todoTable>;
+export type Todo = InferModel<typeof todoTable>; 
 export type NewTodo = InferModel<typeof todoTable, "insert">; // insert type
 
 export const db = drizzle(sql);
